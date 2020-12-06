@@ -3,5 +3,5 @@
 **npm run build**
 compile ts file;
 
-**npm run run**
+**npm run runExamples**
 run the examples
