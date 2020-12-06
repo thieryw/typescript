@@ -53,3 +53,8 @@ var y = [{
         "s": "hello"
     }];
 console.log("n : " + y[0].n + " s : " + y[0].s);
+//Demonstration of Return type
+var z = undefined;
+console.log(z);
+var a = 44;
+console.log(a);

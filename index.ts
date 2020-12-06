@@ -97,6 +97,14 @@ const y: Parameters<typeof myFunction2> = [{
 console.log(`n : ${y[0].n} s : ${y[0].s}`);
 
 
+//Demonstration of Return type
 
+const z: ReturnType<typeof myFunction2> = undefined;
 
+console.log(z);
 
+declare function myFunction3(): number;
+
+const a: ReturnType<typeof myFunction3> = 44;
+
+console.log(a);
